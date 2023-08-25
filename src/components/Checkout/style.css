@@ -1,0 +1,111 @@
+.checkout-container {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 3rem 5rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #b8676723;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  label {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    transition: border-color 0.3s;
+  }
+
+  input:focus, textarea:focus {
+    border-color: #007bff;
+  }
+  
+  .error-message {
+    color: #d9534f;
+    font-size: 0.9rem;
+    margin-top: 0.3rem;
+  }
+  
+  .place-order-button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .place-order-button {
+    background-color: #d87766ea;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .place-order-button:hover {
+    background-color: #d33a3ace;
+  }
+  
+  .order-animation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    animation: fadeInOut 3s ease-out;
+  }
+  
+  .emoji-animation {
+    font-size: 5rem;
+    margin-left: 3rem;
+    width: 30%;
+    height: 30%;
+    animation: emojiGrow 1s infinite alternate; /* Adding animation */
+  }
+
+  .details{
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  @keyframes fadeInOut {
+    0%, 100% {
+      opacity: 0;
+    }
+    10%, 90% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes emojiGrow {
+    0% {
+      transform: scale(1.6);
+    }
+    100% {
+      transform: scale(1.7); 
+    }
+  }
+  
+  h1 {
+    text-align: center;
+    padding: 0px 10px 20px 10px;
+  }

@@ -1,0 +1,51 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  padding: 0.5rem;
+}
+
+.navbar_logo img {
+  max-width: 140px;
+  height: auto;
+}
+
+.navbar_links {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.navbar_links a,
+.msg {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s;
+  font-size: 1.8rem;
+  font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+}
+
+.navbar_links a:hover {
+  color: #e72929;
+}
+
+.navbar_cart {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.cartlogo_badge {
+  background-color: #e72929;
+  color: white;
+  border-radius: 10%;
+  padding: 4px 8px;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+/* .msg {
+  margin-left: auto; 
+} */

@@ -1,0 +1,7 @@
+.product_grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Display three items in each row */
+  gap: 30px;
+  padding: 30px;
+  margin: 10px;
+}
